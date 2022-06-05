@@ -60,7 +60,7 @@ html {}
             width: 85vw;
             height: 90vh;
             margin: 5vh auto 5vh auto;
-            padding: 0;
+       
             background-color: rgba($color: #F2F2F2, $alpha: 0.75);
             border-radius: 1.5rem;
             @media (min-width:768px) {
@@ -126,7 +126,7 @@ html {}
                     align-items: center;
                     justify-content: center;
                     gap: 1rem;
-                    padding: 1rem;
+                    margin-bottom: 1rem;
                 }
                     .ListItem{}
                         .ItemLink{
@@ -166,7 +166,7 @@ html {}
                             display: block;
                             background-color: rgba(#DF811C, $alpha: 0.67);
                             border-radius: 3rem;
-                            padding: 0;
+                            padding: 1.25rem 0.6rem;
                             line-height: 1.5;
                             margin: 0 1rem;
                             border: 0;
