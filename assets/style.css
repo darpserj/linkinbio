@@ -72,7 +72,7 @@ body {
           justify-content: center;
   width: 85vw;
   height: 90vh;
-  margin: 5vh auto 0 auto;
+  margin: 5vh auto 5vh auto;
   background-color: rgba(242, 242, 242, 0.75);
   border-radius: 1.5rem;
 }
