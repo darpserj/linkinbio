@@ -1,0 +1,245 @@
+/* ************* CSS RESET STARTS HERE ************ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* ************* CSS RESET ENDS HERE ************ */
+/**************** MAIN CSS STARTS HERE ***********/
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  background-image: url("/assets/background/background-300w.jpg");
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 85vw;
+  height: 90vh;
+  margin: 5vh auto 0 auto;
+  background-color: rgba(242, 242, 242, 0.75);
+  border-radius: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 50vw;
+    height: 75vh;
+    -webkit-box-shadow: 1px;
+            box-shadow: 1px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 35vw;
+    height: 75vh;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    width: 20vw;
+    height: 75vh;
+  }
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 5vh 0;
+}
+
+.avatar {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+}
+
+.TitluPagina {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.15;
+}
+
+.Divider {
+  width: 95%;
+}
+
+.QuickLinks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 1vh;
+  gap: 5vw;
+}
+
+.QuickItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  background-color: rgba(217, 217, 217, 0.5);
+  border-radius: 50%;
+}
+
+.ListaLinkuri {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 1rem;
+}
+
+.ItemLink {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0.125rem 0.5rem;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 1.5rem;
+  text-decoration: none;
+  color: black;
+  border: 1px solid #878787;
+  gap: 0.5rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ItemIcon {
+  display: block;
+  text-align: center;
+}
+
+.ItemText {
+  display: block;
+  width: auto;
+  line-height: 1;
+  text-align: center;
+}
+
+.Article {
+  display: block;
+  margin: auto;
+}
+
+.ArticleLink {
+  display: block;
+  background-color: rgba(223, 129, 28, 0.67);
+  border-radius: 3rem;
+  padding: 1.25rem 0.6rem;
+  line-height: 1.5;
+  margin: 0 1rem;
+  border: 0;
+}
+
+.ArticleText {
+  text-align: center;
+  color: white;
+}
+
+footer {
+  background-color: rgba(249, 249, 249, 0.5);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.FooterLink {
+  text-decoration: none;
+  color: black;
+}
+
+.FooterText {
+  text-align: center;
+}
+
+/* ************* MAIN CSS ENDS HERE ************ */
+/*# sourceMappingURL=style.css.map */
