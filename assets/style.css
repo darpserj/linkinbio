@@ -73,8 +73,9 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   width: 85vw;
-  height: 100vh;
+  height: 80vh;
   margin: 5vh auto 5vh auto;
+  padding-top: 1rem;
   background-color: rgba(242, 242, 242, 0.75);
   border-radius: 1.5rem;
 }
