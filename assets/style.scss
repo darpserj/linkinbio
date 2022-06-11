@@ -50,7 +50,11 @@ html {}
     body{
         font-family: 'Poppins', sans-serif;
         font-size: 16px;
-
+        background: rgb(34,193,195);
+        background: -moz-linear-gradient(35deg, rgba(34,193,195,1) 0%, rgba(255,238,203,1) 100%);
+        background: -webkit-linear-gradient(35deg, rgba(34,193,195,1) 0%, rgba(255,238,203,1) 100%);
+        background: linear-gradient(35deg, rgba(34,193,195,1) 0%, rgba(255,238,203,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#22c1c3",endColorstr="#ffeecb",GradientType=1); 
     }
         .container{
             display: flex;
@@ -64,15 +68,21 @@ html {}
             border-radius: 1.5rem;
             @media (min-width:768px) {
                 width: 50vw;
-                height: 75vh;
+                height: 85vh;
             }
             @media (min-width:992px) {
-                width: 35vw;
-                height: 75vh;
+                position: relative;
+                left: 20vw ;
+                width: 30vw;
+                height: 85vh;
+                padding: 1rem;
             }
             @media (min-width:1280px) {
-                width: 20vw;
+                position: relative;
+                left: 20vw ;
+                width: 25vw;
                 height: 85vh;
+                padding: 1rem;
             }
         }
             header{
