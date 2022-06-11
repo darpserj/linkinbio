@@ -75,7 +75,6 @@ body {
   width: 85vw;
   height: 80vh;
   margin: 5vh auto 5vh auto;
-  padding-top: 1rem;
   background-color: rgba(242, 242, 242, 0.75);
   border-radius: 1.5rem;
 }
@@ -121,6 +120,7 @@ header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding-top: 1rem;
   padding-bottom: 5vh;
 }
 

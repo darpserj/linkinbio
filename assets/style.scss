@@ -64,7 +64,6 @@ html {}
             width: 85vw;
             height: 80vh;
             margin: 5vh auto 5vh auto;
-            padding-top: 1rem;
             background-color: rgba($color: #F2F2F2, $alpha: 0.75);
             border-radius: 1.5rem;
             @media (min-width:768px) {
@@ -91,6 +90,7 @@ html {}
                 flex-direction: column;
                 align-items: center;
                 justify-content: center;
+                padding-top: 1rem;
                 padding-bottom: 5vh;
             }
                 .avatar{
